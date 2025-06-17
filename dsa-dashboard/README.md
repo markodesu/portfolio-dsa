@@ -1,12 +1,86 @@
-# React + Vite
+# DSA Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive learning platform for Data Structures and Algorithms with visualizations and step-by-step explanations.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Search Algorithms**: Linear Search, Binary Search
+- **Sorting Algorithms**: Bubble Sort, Quick Sort, Merge Sort, Insertion Sort, Selection Sort, Radix Sort, Counting Sort, Heap Sort
+- **Data Structures**: Stack, Queue, Linked List, Hash Function
+- **Trees & Graphs**: Binary Tree, AVL Tree, Red-Black Tree, Graph
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 19
+- React Router DOM
+- Tailwind CSS
+- Framer Motion
+- Vite
+
+## Local Development
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/Portfolio-work-1-dsa.git
+cd Portfolio-work-1-dsa/dsa-dashboard
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## Deployment
+
+This project is configured for GitHub Pages deployment. The deployment happens automatically when you push to the `main` branch.
+
+### Manual Deployment Steps:
+
+1. Build the project:
+```bash
+npm run build
+```
+
+2. The built files will be in the `dist` directory.
+
+3. GitHub Actions will automatically deploy to GitHub Pages.
+
+### GitHub Pages Configuration:
+
+- **Source**: GitHub Actions
+- **Branch**: `gh-pages` (automatically created by the workflow)
+- **URL**: `https://yourusername.github.io/Portfolio-work-1-dsa/`
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── SearchAlgorithms/
+│   ├── SortingAlgorithms/
+│   ├── DataStructures/
+│   ├── Trees/
+│   ├── Graphs/
+│   └── home.jsx
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+
+## License
+
+This project is created for educational purposes.
